@@ -28,3 +28,51 @@ h1 {
   max-width: 1440px;
 }
 
+.car {
+  display: grid;
+  flex-direction: column;
+
+  border-radius: 2rem;
+  background-color: beige;
+}
+
+.car-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.car-name {
+  gap: 1rem;
+  padding: 1rem;
+
+  text-align: left;
+  font-size: 2em;
+  color: rgb(255, 87, 87);
+}
+
+.car-description {
+  gap: 1rem;
+  padding: 1rem;
+
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.36em;
+}
+
+.button {
+  background-color: rgb(255, 76, 76);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3seg;
+  align-self: flex-start;
+}
+
+.button:hover {
+  background-color: rgb(75, 0, 0);
+}
