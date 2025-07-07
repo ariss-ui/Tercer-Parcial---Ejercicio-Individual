@@ -76,3 +76,30 @@ h1 {
 .button:hover {
   background-color: rgb(75, 0, 0);
 }
+
+/* Pantallas max-eidith: 1023px */
+@media screen and (max-width: 1023px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: 0.5em;
+  }
+
+  .pokemon {
+    padding: 1.2em;
+    gap: 0.75em;
+  }
+}
+
+/* Pantallas max-widith: 435px */
+@media screen and (max-width: 435px) {
+  .container {
+    grid-template-columns: 1fr;
+    padding: 0.2em;
+  }
+
+  .car {
+    padding: 1em;
+    gap: 0.5em;
+  }
+}
